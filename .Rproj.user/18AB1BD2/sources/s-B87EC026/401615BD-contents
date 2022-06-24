@@ -1,0 +1,205 @@
+template:
+  params:
+    bootswatch: cerulean
+    ganalytics: UA-140429633-1
+    docsearch:
+      api_key: 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
+      index_name: Project R
+navbar:
+  title: "sparklyr"
+  type: inverse
+  left:
+    - icon: fa-home
+      text: "Home"
+      href: index.html
+    - text: "AgroR"
+      href: https://agronomiar.github.io/AgroR_package/index.html
+    - text: "AgroReg"
+      href: https://agronomiar.github.io/AgroReg_package/index.html
+    - text: "Shiny App"
+      href: app.html
+    - text: "Tutoriais"
+      href: livro.html
+
+    # - text: "Descriptive"
+    #   menu:
+    #   - text: "desc"
+    #     href: reference/desc.html
+    #   - text: "desc2fat"
+    #     href: reference/desc2fat.html
+    #   - text: "desc3fat"
+    #     href: reference/desc3fat.html
+    #   - text: "dispvar"
+    #     href: reference/dispvar.html
+    #   - text: "tabledesc"
+    #     href: reference/tabledesc.html
+    #
+    # - text: "Analysis"
+    #   menu:
+    #   - text: "test_two"
+    #     href: reference/test_two.html
+    #   - text: "DIC"
+    #     href: reference/DIC.html
+    #   - text: "DBC"
+    #     href: reference/DBC.html
+    #   - text: "DQL"
+    #     href: reference/DQL.html
+    #   - text: "DIC.glm"
+    #     href: reference/DIC.glm.html
+    #   - text: "DBC.glm"
+    #     href: reference/DBC.glm.html
+    #   - text: "FAT2DIC"
+    #     href: reference/FAT2DIC.html
+    #   - text: "FAT2DBC"
+    #     href: reference/FAT2DBC.html
+    #   - text: "FAT3DIC"
+    #     href: reference/FAT3DIC.html
+    #   - text: "FAT3DBC"
+    #     href: reference/FAT3DBC.html
+    #   - text: "PSUBDIC"
+    #     href: reference/PSUBDIC.html
+    #   - text: "PSUBDBC"
+    #     href: reference/PSUBDBC.html
+    #   - text: "PSUBFAT2DBC"
+    #     href: reference/PSUBFAT2DBC.html
+    #   - text: "FAT2DIC.ad"
+    #     href: reference/FAT2DIC.ad.html
+    #   - text: "FAT2DBC.ad"
+    #     href: reference/FAT2DBC.ad.html
+    #   - text: "FAT3DIC.ad"
+    #     href: reference/FAT3DIC.ad.html
+    #   - text: "FAT3DBC.ad"
+    #     href: reference/FAT3DBC.ad.html
+    #   - text: "conjdic"
+    #     href: reference/conjdic.html
+    #   - text: "conjdbc"
+    #     href: reference/conjdbc.html
+    #   - text: "dunnett"
+    #     href: reference/dunnett.html
+    #   - text: "DICT"
+    #     href: reference/DICT.html
+    #   - text: "DBCT"
+    #     href: reference/DBCT.html
+    #   - text: "DQLT"
+    #     href: reference/DQLT.html
+    #   - text: "logistic"
+    #     href: reference/logistic.html
+    #   - text: "polynomial"
+    #     href: reference/polynomial.html
+    #   - text: "polynomial2"
+    #     href: reference/polynomial2.html
+    #   - text: "polynomial2_color"
+    #     href: reference/polynomial2_color.html
+    #   - text: "PCA_function"
+    #     href: reference/PCA_function.html
+    #   - text: "dunn"
+    #     href: reference/dunn.html
+    #   - text: "STRIPLOT"
+    #     href: reference/STRIPLOT.html
+    #
+    # - text: "Graphs"
+    #   menu:
+    #   - text: "bar_graph"
+    #     href: reference/bar_graph.html
+    #   - text: "barplot_positive"
+    #     href: reference/barplot_positive.html
+    #   - text: "corgraph"
+    #     href: reference/corgraph.html
+    #   - text: "cor_ic"
+    #     href: reference/cor_ic.html
+    #   - text: "line_plot"
+    #     href: reference/line_plot.html
+    #   - text: "plot_cor"
+    #     href: reference/plot_cor.html
+    #   - text: "plot_interaction"
+    #     href: reference/plot_interaction.html
+    #   - text: "plot_jitter"
+    #     href: reference/plot_jitter.html
+    #   - text: "plot_TH"
+    #     href: reference/plot_TH.html
+    #   - text: "plot_TH1"
+    #     href: reference/plot_TH1.html
+    #   - text: "radargraph"
+    #     href: reference/radargraph.html
+    #   - text: "seg_graph"
+    #     href: reference/seg_graph.html
+    #   - text: "seg_graph2"
+    #     href: reference/seg_graph2.html
+    #   - text: "sk_graph"
+    #     href: reference/sk_graph.html
+    #   - text: "spider_graph"
+    #     href: reference/spider_graph.html
+    #   - text: "TBARPLOT.reverse"
+    #     href: reference/TBARPLOT.reverse.html
+    #   - text: "bargraph_onefactor"
+    #     href: reference/bargraph_onefactor.html
+    #   - text: "bargraph_twofactor"
+    #     href: reference/bargraph_twofactor.html
+    #   - text: "barfacet"
+    #     href: reference/barfacet.html
+    #
+    #
+    # - text: "Data set"
+    #   menu:
+    #   - text: "aristolochia"
+    #     href: reference/aristolochia.html
+    #   - text: "bean"
+    #     href: reference/bean.html
+    #   - text: "cloro"
+    #     href: reference/cloro.html
+    #   - text: "corn"
+    #     href: reference/corn.html
+    #   - text: "covercrops"
+    #     href: reference/covercrops.html
+    #   - text: "emerg"
+    #     href: reference/emerg.html
+    #   - text: "enxofre"
+    #     href: reference/enxofre.html
+    #   - text: "laranja"
+    #     href: reference/laranja.html
+    #   - text: "mirtilo"
+    #     href: reference/mirtilo.html
+    #   - text: "orchard"
+    #     href: reference/orchard.html
+    #   - text: "passiflora"
+    #     href: reference/passiflora.html
+    #   - text: "pepper"
+    #     href: reference/pepper.html
+    #   - text: "phao"
+    #     href: reference/phao.html
+    #   - text: "pomegranate"
+    #     href: reference/pomegranate.html
+    #   - text: "porco"
+    #     href: reference/porco.html
+    #   - text: "sensorial"
+    #     href: reference/sensorial.html
+    #   - text: "simulate1"
+    #     href: reference/simulate1.html
+    #   - text: "simulate2"
+    #     href: reference/simulate2.html
+    #   - text: "simulate3"
+    #     href: reference/simulate3.html
+    #   - text: "soybean"
+    #     href: reference/soybean.html
+    #   - text: "tomate"
+    #     href: reference/tomate.html
+    #   - text: "weather"
+    #     href: reference/weather.html
+    #
+    # - text: "Utils"
+    #   menu:
+    #   - text: "sketch"
+    #     href: reference/sketch.html
+    #   - text: "transf"
+    #     href: reference/transf.html
+    #   - text: "summarise_anova"
+    #     href: reference/summarise_anova.html
+    #   - text: "summarise_dunnett"
+    #     href: reference/summarise_dunnett.html
+    #   - text: "aacp"
+    #     href: reference/aacp.html
+    #
+    # - text: "News"
+    #   href: news/index.html
+    #
+    #
